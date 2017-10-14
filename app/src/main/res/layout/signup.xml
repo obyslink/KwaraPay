@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/editTexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="18dp"
+        android:textColor="@color/background2"
+        android:text="@string/form_contenthead"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/fn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="17dp"
+        android:text="@string/fn_text" />
+
+    <EditText
+        android:id="@+id/fn_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+    <TextView
+        android:id="@+id/ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="17dp"
+        android:text="@string/ln_text" />
+
+    <EditText
+        android:id="@+id/ln_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="17dp"
+        android:text="@string/email_text" />
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"/>
+    <TextView
+        android:id="@+id/acc_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="17dp"
+        android:text="@string/an_text" />
+
+    <EditText
+        android:id="@+id/an_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text|number" />
+    <TextView
+        android:id="@+id/mn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="17dp"
+        android:text="@string/mn_text" />
+
+    <EditText
+        android:id="@+id/mn_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text|number"/>
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="17dp"
+        android:text="@string/pass_reg" />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <TextView
+        android:id="@+id/cpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="17dp"
+        android:text="@string/confirm_password" />
+
+    <EditText
+        android:id="@+id/confirm_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/submit_func"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textOnBtn_bk"
+        android:textColor="@color/textOnBtn_w"
+        android:text="@string/submit" />
+
+</LinearLayout>

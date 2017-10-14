@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/the_mt_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/mt_number" />
+
+    <EditText
+        android:id="@+id/input_amtnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text|number"/>
+
+    <TextView
+        android:id="@+id/the_amt_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/amt_number" />
+
+    <EditText
+        android:id="@+id/input_mtnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text|number"/>
+    <TextView
+        android:id="@+id/the_ph_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/ph_number" />
+
+    <EditText
+        android:id="@+id/input_phnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text|phone"/>
+
+
+    <Button
+        android:id="@+id/submit_payment_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textOnBtn_bk"
+        android:textColor="@color/textOnBtn_w"
+        android:text="@string/submit_payment" />
+
+</LinearLayout>

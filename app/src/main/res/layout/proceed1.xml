@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tnx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:text="@string/tnk"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/proceed_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.09"
+        android:background="@color/textOnBtn_bk"
+        android:textColor="@color/textOnBtn_w"
+        android:text="@string/proceedw" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgd"
+    android:weightSum="1">
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/color_myfont"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contents_texview2"
+        android:layout_weight="0.53" />
+
+    <Button
+        android:id="@+id/register_attempt"
+        android:layout_width="match_parent"
+        android:background="@color/textOnBtn_bk"
+        android:textColor="@color/textOnBtn_w"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+    <Button
+        android:id="@+id/visitourweb"
+        android:textColor="@color/textOnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/visitourweb_attempt" />
+</LinearLayout>

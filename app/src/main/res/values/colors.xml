@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background2">#0076B6</color>
+    <color name="background1">#FFFFFF</color>
+    <color name="background">#E2E8EC</color>
+    <color name="textOnBtn">#0B344B</color>
+    <color name="color_naija">#4C9846</color>
+    <color name="color_myfont">#EF2A2A</color>
+    <color name="textOnBtn_w">#ffffff</color>
+    <color name="textOnBtn_bk">#D21F1F</color>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ourgames.kwarapay">
+
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".KwaraPay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About"
+            android:label="@string/about_kwp_online">
+        </activity>
+        <activity android:name=".App"
+            android:label="@string/app_title">
+        </activity>
+        <activity android:name=".LogIn"
+            android:label="@string/log_in"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name=".KwaraPayWeb"
+            android:label="@string/kpwebapp_title">
+        </activity>
+        <activity android:name=".Proceeding"
+            android:label="@string/proceeding_title"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name=".ProceedingPayment"
+            android:label="@string/proceeding_title2"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name=".ElectricityPSetup"
+            android:label="@string/electricity_title">
+        </activity>
+        <activity android:name=".AboutKwp"
+            android:label="@string/kwp_title"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name=".Submit"
+            android:label="@string/sbm_title"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name=".NearestATMs"
+            android:label="@string/nearestatms_title">
+        </activity>
+        <activity android:name=".QTWebView"
+            android:label="@string/qtwebview_title">
+        </activity>
+        <activity android:name=".SignUp"
+            android:label="@string/signup_title">
+        </activity>
+        <activity android:name=".AboutDev"
+            android:label="@string/aboutdev_title"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+    </application>
+
+</manifest>

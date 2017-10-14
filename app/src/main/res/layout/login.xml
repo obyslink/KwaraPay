@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/the_email_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/email_rec" />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"/>
+
+
+    <Button
+        android:id="@+id/submit_log_in"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/textOnBtn_bk"
+        android:textColor="@color/textOnBtn_w"
+        android:text="@string/submit_login_info" />
+
+</LinearLayout>

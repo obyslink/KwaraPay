@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">KwaraPay</string>
+    <string name="welcome_title">    Welcome to Kwara-Pay    </string>
+    <string name="get_started">Get Started with Kwara-Pay</string>
+    <string name="get_airtime">Get Airtime</string>
+    <string name="get_atms">Get ATM</string>
+    <string name="kpwebapp_title">KWARA-PAY Home</string>
+    <string name="about_kwarapay">About Us</string>
+    <string name="about_devtitle">About Developer</string>
+    <string name="about_devtext">Kwara-Pay 1.0 is developed and maintained by Davidz App INC, Nigeria. \nl
+                             <p><b>DEVELOPER: OLEBUEZI OBINNA DAVID +2348133497153</b></p> </string>
+    <string name="about_kwp_online">About Kwara-Pay Online</string>
+    <string name="about_kwptext">Kwara-Pay 1.0 is an online payment system for electricity bills in Kwara State,
+                            Nigeria and a quick airtime recharge system.  There is no charge from Kwara-pay,
+                        but data rates may apply.Delivery of alerts may be delayed for various reasons,
+                      including wireless or internet provider; technology failures; and system capacity limitations
+                                                                                     </string>
+    <string name="signup_or_login">Sign Up or Log In</string>
+    <string name="log_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="app_title">App</string>
+    <string name="nearestatms_title">Nearest ATMs</string>
+    <string name="qtwebview_title">Quick Teller Web</string>
+    <string name="aboutdev_title">About Developer</string>
+    <string name="contents_texview2"><h1><b>READ INFO</b></h1>\nl \nl
+                                    <p>Our Kwara State Bill Payment Guarantee means you can pay bills with confidence.
+                                        You can even set up automatic payments to avoid late fees and missed due dates.</p>\nl  \nl
+                                    <h2><b>How to Start</b></h2>\nl
+                                    <p>To get started, log into the website if you already have an account with us, tap on the
+					                navigation icon and select a payment type.</p>\nl \nl
+                                   <h2> <b>How to Make Payments</b></h2>\nl
+
+                                   <p><b>Step 1:</b> Sign in to your account and select Electricity</p>\nl \nl
+                                    <b><p>Step 2: Verify Payment Details</p></b>\nl
+                                     <p>Once you’ve verified the details on the page, enter "Amount,Meter number and phone number" and
+                             select “Submit Payment”.</p></string>
+    <string name="form_contenthead"><b>SIGN UP FORM</b></string>
+    <string name="aboutchoice_title"><b>MAKE PAYMENTS THE SMART WAY</b></string>
+    <string name="aboutkwpchoice"><b>ABOUT KWARA-PAY MOBILE APP</b></string>
+    <string name="aboutdevchoice"><b>CONTACT DEVELOPER</b></string>
+    <string name="long_live"><b>Long Live Nigeria, Long live Kwara state</b></string>
+ <string name="kwp_info"><b>E-MAIL: INFO@KWARA-PAY TEAM</b></string>
+    <string name="kwp_title">ABOUT KWARA-PAY</string>
+    <string name="kwarapay_title">KWARA-PAY</string>
+    <string name="signup_title">SIGN UP WITH KWARA-PAY</string>
+    <string name="visitourweb_attempt">Visit kwarapay.com website</string>
+    <string name="email_rec"><b>Enter E-mail Address</b></string>
+    <string name="password_rec"><b>Enter Password</b></string>
+    <string name="fn_text">First Name</string>
+    <string name="ln_text">Last Name</string>
+    <string name="email_text">E-Mail Address</string>
+    <string name="an_text">Account Number</string>
+    <string name="mn_text">Mobile Number</string>
+    <string name="pass_reg">Create Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">Create Account</string>
+    <string name="sbm_title">Submit</string>
+    <string name="tnk">Thank you for joining us!</string>
+    <string name="proceedw">Proceed</string>
+    <string name="proceeding_title">Touch here to proceed</string>
+    <string name="electricity_title">Electricity</string>
+    <string name="cnt_dev">Contact Developer</string>
+    <string name="submit_payment">Submit</string>
+    <string name="mt_number">Meter Number</string>
+    <string name="ph_number">Phone Number</string>
+    <string name="amt_number">Amount</string>
+    <string name="submit_login_info">Sign In</string>
+    <string name="tnk_payment">Your payment will be confirmed shortly</string>
+    <string name="proceeding_title2">Confirmation Message</string>
+
+
+</resources>
